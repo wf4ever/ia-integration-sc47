@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.578" errors="0" skipped="0" tests="1" name="isoco.wf4ever.TestHomePage">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre\bin"/>
+    <property name="java.vm.version" value="14.3-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 3"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Workspace\showcase47"/>
+    <property name="java.runtime.version" value="1.6.0_17-b04"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="C:\Workspace\showcase47"/>
+    <property name="java.endorsed.dirs" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\Workspace\showcase47\target\surefire\surefirebooter1735608473152092516.jar"/>
+    <property name="java.io.tmpdir" value="C:\DOCUME~1\agarrido\CONFIG~1\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows XP"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre\bin;.;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Archivos de programa\Intel\DMIX;c:\Archivos de programa\Intel\WiFi\bin\;c:\Archivos de programa\Archivos comunes\Roxio Shared\DLLShared\;c:\Archivos de programa\Archivos comunes\Roxio Shared\10.0\DLLShared\;C:\Archivos de programa\cvsnt;C:\oracle\bin;%MSDK_HOME%\bin ;E:\temp\grails-1.3.7\bin;C:\apache-maven-3.0.3\bin;C:\Archivos de programa\MySQL\MySQL Server 5.5\bin"/>
+    <property name="surefire.test.class.path" value="C:\Workspace\showcase47\target\test-classes;C:\Workspace\showcase47\target\classes;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-core\1.5.6\wicket-core-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-util\1.5.6\wicket-util-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-request\1.5.6\wicket-request-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\slf4j\slf4j-log4j12\1.6.2\slf4j-log4j12-1.6.2.jar;C:\Documents and Settings\agarrido\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Documents and Settings\agarrido\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\eclipse\jetty\aggregate\jetty-all-server\7.5.0.v20110901\jetty-all-server-7.5.0.v20110901.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\mail\mail\1.4.1\mail-1.4.1.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-jaspic_1.0_spec\1.0\geronimo-jaspic_1.0_spec-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-annotation_1.0_spec\1.1.1\geronimo-annotation_1.0_spec-1.1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm-commons\3.1\asm-commons-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm-tree\3.1\asm-tree-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\jena\2.6.0\jena-2.6.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\arq\2.7.0\arq-2.7.0.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\lucene\lucene-core\2.3.1\lucene-core-2.3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\stax\stax-api\1.0\stax-api-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\woodstox\wstx-asl\3.0.0\wstx-asl-3.0.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\json-jena\1.0\json-jena-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\iri\0.6\iri-0.6.jar;C:\Documents and Settings\agarrido\.m2\repository\com\ibm\icu\icu4j\3.4.4\icu4j-3.4.4.jar;C:\Documents and Settings\agarrido\.m2\repository\xerces\xercesImpl\2.7.1\xercesImpl-2.7.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="5.1"/>
+    <property name="user.home" value="C:\Documents and Settings\agarrido"/>
+    <property name="user.timezone" value="Europe/Paris"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="agarrido"/>
+    <property name="java.class.path" value="C:\Workspace\showcase47\target\test-classes;C:\Workspace\showcase47\target\classes;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-core\1.5.6\wicket-core-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-util\1.5.6\wicket-util-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\wicket\wicket-request\1.5.6\wicket-request-1.5.6.jar;C:\Documents and Settings\agarrido\.m2\repository\org\slf4j\slf4j-api\1.6.1\slf4j-api-1.6.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\slf4j\slf4j-log4j12\1.6.2\slf4j-log4j12-1.6.2.jar;C:\Documents and Settings\agarrido\.m2\repository\log4j\log4j\1.2.16\log4j-1.2.16.jar;C:\Documents and Settings\agarrido\.m2\repository\junit\junit\4.8.1\junit-4.8.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\eclipse\jetty\aggregate\jetty-all-server\7.5.0.v20110901\jetty-all-server-7.5.0.v20110901.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-jta_1.1_spec\1.1.1\geronimo-jta_1.1_spec-1.1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\mail\mail\1.4.1\mail-1.4.1.jar;C:\Documents and Settings\agarrido\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-jaspic_1.0_spec\1.0\geronimo-jaspic_1.0_spec-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\geronimo\specs\geronimo-annotation_1.0_spec\1.1.1\geronimo-annotation_1.0_spec-1.1.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm-commons\3.1\asm-commons-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm-tree\3.1\asm-tree-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\jena\2.6.0\jena-2.6.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\arq\2.7.0\arq-2.7.0.jar;C:\Documents and Settings\agarrido\.m2\repository\org\apache\lucene\lucene-core\2.3.1\lucene-core-2.3.1.jar;C:\Documents and Settings\agarrido\.m2\repository\stax\stax-api\1.0\stax-api-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\woodstox\wstx-asl\3.0.0\wstx-asl-3.0.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\json-jena\1.0\json-jena-1.0.jar;C:\Documents and Settings\agarrido\.m2\repository\com\hp\hpl\jena\iri\0.6\iri-0.6.jar;C:\Documents and Settings\agarrido\.m2\repository\com\ibm\icu\icu4j\3.4.4\icu4j-3.4.4.jar;C:\Documents and Settings\agarrido\.m2\repository\xerces\xercesImpl\2.7.1\xercesImpl-2.7.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.6.0_17"/>
+    <property name="java.ext.dirs" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\resources.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\rt.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\sunrsasign.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\jsse.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\jce.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\lib\charsets.jar;C:\Archivos de programa\Java\jdk1.6.0_17\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Documents and Settings\agarrido\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase time="0.516" classname="isoco.wf4ever.TestHomePage" name="homepageRendersSuccessfully"/>
+</testsuite>

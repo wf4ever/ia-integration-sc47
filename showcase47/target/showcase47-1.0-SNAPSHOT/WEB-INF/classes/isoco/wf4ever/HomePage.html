@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+	<head>
+		<meta charset="utf-8" />
+		<title>Showcase 47</title>
+		<link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen" title="Stylesheet" />
+	</head>
+	<body>
+		<div id="hd">
+			<div id="logo">
+				<img src="logo.png" width="50px" height="50px" alt="Wf4ever Logo" />
+				<h1>Showcase 47</h1>
+			</div>
+		</div>
+		<div id="bd">
+			<h2>IA evaluation and integration</h2>
+			<p>
+				This showcase main goal is to integrate the work done related with I&A 
+				to provided some initial I&A funcionality to be consumed by an end-user.<br/>
+				Outcomes: I&A integrated services, simple visualization and checklist services.
+			</p>
+			<h3>Test IA</h3>
+			<p>
+				Try evaluating a research object for a specific purpose.
+			</p> 
+			<p>
+     <form wicket:id="form">
+
+        <table style="border: 2px dotted #88b2f5; width: 400px; padding: 10px;">
+         <tr>
+          <td>RO uri:</td>
+          <td><input type="text" onclick="this.value='';" wicket:id="text" /></td>
+         </tr>
+         <tr>
+          <td>MINIM uri:</td>
+          <td><input type="text" onclick="this.value='';" wicket:id="minim" /></td>
+         </tr>
+         <tr>
+          <td>Purpose:</td>
+          <td><input type="text" onclick="this.value='';" wicket:id="purpose" /></td>
+         </tr>
+         <!--<tr>
+          <td valign="top">MINIM:</td>
+          <td>
+              <span valign="top" wicket:id="type">
+                <input type="radio">Replayability</input>
+                <input type="radio">Repeatability</input>
+              </span>
+          </td>
+         </tr>-->
+         <tr>
+          <td colspan="2" align="center">
+           <input type="submit" />
+          </td>
+         </tr>
+        </table>
+
+     </form>
+     <h4>
+     e.g: (copy & paste)<br/>
+     RO uri1: http://andros.zoo.ox.ac.uk/workspace/wf4ever-ro-catalogue/v0.1/simple-requirements/<br/>
+     RO uri2: http://andros.zoo.ox.ac.uk/aleix/ro-catalogue/v0.1/wf74-repeat-fail/<br/>
+     MINIM uri: simple-requirements-minim.rdf<br/>
+     Purpose1: Runnable  |  Purpose2: Reviewable  |  Purpose3: Repeatable
+     </h4>
+    </p>
+			
+			<h3>Results</h3>
+			<p>
+				<!-- <span wicket:id="feedback">feedbackmessages will be put here</span> -->
+				<wicket:container wicket:id="version">1.5-SNAPSHOT</wicket:container>
+			</p>  
+		</div>
+		<div id="ft">
+		</div>
+	</body>
+</html>
